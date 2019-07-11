@@ -12,6 +12,6 @@ Singleton typically has private constructor to prevent this class being instanti
 
 #### Singleton Simple 
 
-This is very simple implementation of singleton. As can be seen in [SingletonSimpleTest](..blob/master/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java) 
+This is very simple implementation of singleton. As can be seen in [SingletonSimpleTest](../blob/master/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java) 
 it not safe against reflection. 
 When we use reflection constructor.setAccesible(true);  it is possible to create two instances of this class. 

@@ -10,7 +10,7 @@ Typically this is acomplished by creating static filed that represents that clas
 Static method exist in the class to obtain instance of class. Typically we call this method getInstance() 
 Singleton typically has private constructor to prevent this class being instantiated via constructor. 
 
-#### Singleton Simple 
+#### [Singleton Simple](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java) 
 
 This is very simple implementation of singleton. As can be seen in [SingletonSimpleTest](src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java) 
 it not safe against reflection. 

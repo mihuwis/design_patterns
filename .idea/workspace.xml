@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b63b837-e5ad-4f0b-9f5e-878f86570f96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,16 +34,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="105">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding>
-                <element signature="e#232#233#0" expanded="true" />
                 <element signature="e#263#264#0" expanded="true" />
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#548#549#0" expanded="true" />
                 <element signature="e#598#599#0" expanded="true" />
                 <element signature="e#635#636#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+              <folding>
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/reflect/InvocationTargetException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-483">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -57,18 +96,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -85,8 +112,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -97,10 +124,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafeTest.java" />
       </list>
     </option>
   </component>
@@ -301,7 +330,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingletonSimpleTest.singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects">
+  <component name="RunManager" selected="JUnit.SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects">
+    <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.progresspoint.patterns.creational_patterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.progresspoint.patterns.creational_patterns.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.progresspoint.patterns.creational_patterns.singleton.SingletonReflectionSafeTest" />
+      <option name="METHOD_NAME" value="singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.progresspoint.patterns.creational_patterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.progresspoint.patterns.creational_patterns.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.progresspoint.patterns.creational_patterns.singleton.SingletonReflectionSafeTest" />
+      <option name="METHOD_NAME" value="singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_patterns" />
       <extension name="coverage">
@@ -349,45 +410,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonSimpleTest.singletonSpimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.progresspoint.patterns.creational_patterns.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.progresspoint.patterns.creational_patterns.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.progresspoint.patterns.creational_patterns.singleton.SingletonSimpleTest" />
-      <option name="METHOD_NAME" value="singletonSpimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonSimpleTest.singletonSpimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.progresspoint.patterns.creational_patterns.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.progresspoint.patterns.creational_patterns.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.progresspoint.patterns.creational_patterns.singleton.SingletonSimpleTest" />
-      <option name="METHOD_NAME" value="singletonSpimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" />
+        <item itemvalue="JUnit.SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" />
         <item itemvalue="JUnit.SingletonSimpleTest.singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" />
         <item itemvalue="JUnit.SingletonSimpleTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" />
         <item itemvalue="JUnit.SingletonSimpleTest" />
-        <item itemvalue="JUnit.SingletonSimpleTest.singletonSpimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" />
-        <item itemvalue="JUnit.SingletonSimpleTest.singletonSpimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -401,35 +430,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562834513089</updated>
-      <workItem from="1562834517686" duration="7871000" />
+      <workItem from="1562834517686" duration="12522000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingletonSimpleTest_singetonSimple_oneInstanceCreated_shoudReturnTrue - 2019.07.11 at 11h 37m 43s.xml">
-      <configuration name="SingletonSimpleTest.singetonSimple_oneInstanceCreated_shoudReturnTrue" configurationId="JUnit" />
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 15h 20m 07s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonSimpleTest_singletonSpimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects - 2019.07.11 at 11h 55m 07s.xml">
-      <configuration name="SingletonSimpleTest.singletonSpimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" configurationId="JUnit" />
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 15h 24m 55s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonSimpleTest_singletonSpimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 14h 10m 22s.xml">
-      <configuration name="SingletonSimpleTest.singletonSpimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 20h 40m 43s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonSimpleTest - 2019.07.11 at 14h 11m 15s.xml">
-      <configuration name="SingletonSimpleTest" configurationId="JUnit" />
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 20h 43m 21s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonSimpleTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 14h 11m 55s.xml">
-      <configuration name="SingletonSimpleTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 20h 54m 47s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonSimpleTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 14h 13m 40s.xml">
-      <configuration name="SingletonSimpleTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects - 2019.07.11 at 20h 55m 45s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonSimpleTest_singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects - 2019.07.11 at 14h 14m 21s.xml">
-      <configuration name="SingletonSimpleTest.singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" configurationId="JUnit" />
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 20h 55m 49s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 21h 00m 59s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 21h 02m 08s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingletonReflectionSafeTest_singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects - 2019.07.11 at 21h 04m 41s.xml">
+      <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7871000" />
+    <option name="totallyTimeSpent" value="12522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1680" height="1052" extended-state="6" />
@@ -485,6 +523,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" selection-start-line="11" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -495,38 +567,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/reflect/InvocationTargetException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="-483">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

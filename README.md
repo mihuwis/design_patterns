@@ -40,4 +40,22 @@ to get through condition check and then more instances were created.
 
 Key word volatile is used to read variable from main memory not from cache. 
 
+As synchronization can affects performance we can use: 
+
+#### [Static Holder Singleton](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonStaticHolder.java) 
+This is realy cool. When class Singleton is loaded by JVM class will go through initialization. 
+As there no static variables in class initializatin will completes trivially. 
+Inner class Holder will be not initialized until execution of get instance method. 
+Since the class initialization phase is guaranted by Java Language Specification to be sequential, no further synchronization is needed! 
+
+
+
+
+
+
+
+
+Bibliography: 
+[Initialization-on-demand holder idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom)
+[Storm IT, Singleton. (in polish)](https://stormit.pl/singleton/)
 

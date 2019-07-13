@@ -6,13 +6,15 @@ Design patterns repository
 ### Singleton Pattern
 
 A **singleton** is a class that is instantiated only once. 
-Typically this is acomplished by creating static filed that represents that class.
+Typically this is accomplished by creating static filed that represents that class.
 Static method exist in the class to obtain instance of class. Typically we call this method getInstance() 
 Singleton typically has private constructor to prevent this class being instantiated via constructor. 
 
 #### [Singleton Simple](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java) 
 
-This is very simple implementation of singleton. 
+This is very simple implementation of singleton. And a singleton with parameters is not a singleton(!!) 
+This implementation with parameters was just for exercise purposes.  
+**Reflection**
 As can be seen in [SingletonSimpleTest](src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java) 
 it not safe against reflection. 
 When we use reflection constructor.setAccesible(true);  it is possible to create two instances of this class. 
@@ -36,6 +38,6 @@ Try to get rid of inner condition in singleton class.
 Only about 95% tests will pass in this case, as some threads managed 
 to get through condition check and then more instances were created.
 
-Key word volatil is used to read variable from main memory not from cashe. 
+Key word volatile is used to read variable from main memory not from cache. 
 
 

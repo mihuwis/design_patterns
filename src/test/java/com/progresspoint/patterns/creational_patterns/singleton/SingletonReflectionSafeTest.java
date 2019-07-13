@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SingletonReflectionSafeTest {
 
+
     @Test
     void singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects()  {
 
@@ -28,6 +29,7 @@ class SingletonReflectionSafeTest {
 
         assertThrows(InvocationTargetException.class, SingletonReflectionSafeTest::execute);
     }
+
 
     private static void execute()
             throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {

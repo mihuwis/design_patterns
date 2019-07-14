@@ -49,7 +49,7 @@ Inner class Holder will be not initialized until execution of get instance metho
 Since the class initialization phase is guaranted by Java Language Specification to be sequential, no further synchronization is needed! 
 
 
-
+### Factory Pattern
 
 
 
@@ -58,4 +58,5 @@ Since the class initialization phase is guaranted by Java Language Specification
 Bibliography: 
 [Initialization-on-demand holder idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom)
 [Storm IT, Singleton. (in polish)](https://stormit.pl/singleton/)
+[Design patterns - avajava](http://www.avajava.com/tutorials/categories/design-patterns)
 

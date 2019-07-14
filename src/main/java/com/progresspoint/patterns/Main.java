@@ -1,5 +1,6 @@
 package com.progresspoint.patterns;
 
+import com.progresspoint.patterns.creational_patterns.factory.CurrencyFactory;
 import com.progresspoint.patterns.creational_patterns.factory.CurrencyFunctionalFactory;
 import com.progresspoint.patterns.creational_patterns.singleton.SingletonSimple;
 
@@ -18,12 +19,13 @@ public class Main {
 
 
         System.out.println("\nFACTORY\n");
-        Supplier<CurrencyFunctionalFactory> currencyFactory = CurrencyFunctionalFactory::new;
+        CurrencyFactory currencyFactory = new CurrencyFactory();
+        String euroSymbol = currencyFactory.getCurrency("Euro").showSymbolOfCurrency();
+        System.out.println("We had currency factory to get this symbol -> " + euroSymbol);
 
-        // Get Symbol of dollar
-        String dollsarSymbol = currencyFactory.get().getCurrency("Dollar").showSymbolOfCurrency();
-
-        System.out.println("We had currency factory to get this symbol -> " + dollsarSymbol);
+        Supplier<CurrencyFunctionalFactory> currencyFunctionalFactorySupplier = CurrencyFunctionalFactory::new;
+        String dollarSymbol = currencyFunctionalFactorySupplier.get().getCurrency("Dollar").showSymbolOfCurrency();
+        System.out.println("We had currency factory with map to get this symbol -> " + dollarSymbol);
 
 
 

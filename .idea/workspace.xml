@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b63b837-e5ad-4f0b-9f5e-878f86570f96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFunctionalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Dollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Euro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mihu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" afterDir="false" />
@@ -25,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="375">
+              <caret line="25" column="111" selection-start-line="25" selection-start-column="111" selection-end-line="25" selection-end-column="111" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,12 +32,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="752">
-                <caret line="60" column="88" lean-forward="true" selection-start-line="60" selection-start-column="88" selection-end-line="60" selection-end-column="88" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="502">
+                <caret line="64" selection-start-line="64" selection-end-line="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -92,19 +87,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Dollar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -129,7 +111,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonThreadSafeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonThreadSafe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonStaticHolder.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Currency.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Dollar.java" />
@@ -137,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Euro.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFunctionalFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -438,7 +420,7 @@
       <workItem from="1562929727778" duration="4688000" />
       <workItem from="1563034931771" duration="3473000" />
       <workItem from="1563038638953" duration="4408000" />
-      <workItem from="1563093212175" duration="5578000" />
+      <workItem from="1563093212175" duration="8203000" />
     </task>
     <servers />
   </component>
@@ -475,13 +457,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31447000" />
+    <option name="totallyTimeSpent" value="34072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1680" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22093023" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22093023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -491,7 +473,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23726977" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23726977" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -603,16 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="752">
-            <caret line="60" column="88" lean-forward="true" selection-start-line="60" selection-start-column="88" selection-end-line="60" selection-end-column="88" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -661,11 +633,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="375">
+          <caret line="25" column="111" selection-start-line="25" selection-start-column="111" selection-end-line="25" selection-end-column="111" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="502">
+            <caret line="64" selection-start-line="64" selection-end-line="64" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

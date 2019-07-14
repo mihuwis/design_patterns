@@ -44,13 +44,24 @@ As synchronization can affects performance we can use:
 
 #### [Static Holder Singleton](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonStaticHolder.java) 
 This is realy cool. When class Singleton is loaded by JVM class will go through initialization. 
-As there no static variables in class initializatin will completes trivially. 
+As there no static variables in class initialization will completes trivially. 
 Inner class Holder will be not initialized until execution of get instance method. 
-Since the class initialization phase is guaranted by Java Language Specification to be sequential, no further synchronization is needed! 
+Since the class initialization phase is guaranteed by Java Language Specification to be sequential, no further synchronization is needed! 
 
 
 ### Factory Pattern
 
+A factory pattern is a creational design pattern. It can be used for encapsulate creation code. 
+In this way we can hide instantiation logic when creating objects. 
+
+#### [Factory](https://github.com/mihuwis/design_patterns/blob/master/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactory.java)
+Method getInstance() or in our case getCurrency() will return constructor of required class. 
+We can control which class will be instantiated by method argument. 
+
+#### [Factory with map and Functional interface](src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFunctionalFactory.java)
+
+Different aproach, where functional possibilities of Java 8 were used. 
+In map string representation of class is stored as key, as value we have Supplier interface of given class.
 
 
 

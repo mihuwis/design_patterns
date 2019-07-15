@@ -46,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="345">
-                <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -193,40 +193,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="progresspoint" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="progresspoint" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="creational_patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="progresspoint" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structural_patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="progresspoint" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structural_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -394,7 +360,7 @@
       <workItem from="1563034931771" duration="3473000" />
       <workItem from="1563038638953" duration="4408000" />
       <workItem from="1563093212175" duration="8518000" />
-      <workItem from="1563177218876" duration="9098000" />
+      <workItem from="1563177218876" duration="11164000" />
     </task>
     <servers />
   </component>
@@ -431,13 +397,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43485000" />
+    <option name="totallyTimeSpent" value="45551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1680" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2239902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2239902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -447,7 +413,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23726977" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23726977" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -650,8 +616,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="345">
-            <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>

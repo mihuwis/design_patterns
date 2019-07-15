@@ -2,13 +2,17 @@
 
 ### 📮 About
 Design patterns repository. Repo with some basic implementation of common design patterns. 
-Three main categories are included here - creational, structural and behavioral design patterns.
+Three main categories are included here:
+- creational 
+- structural 
+- behavioral 
+design patterns.
 
 ### 🕹 Project Motivation
-Design patterns are one of most common job interviev question in industry. This repo was created to practice and gather them in one place.
-If you found any bug or you thing something important (pattern or implementation) is missing please feel free to send me pull request.  
+Design patterns are one of most common job interview topics. This repo was created to practice and gather info about them in one place.
+- If you found any bug or you thing something important (pattern or implementation) is missing please feel free to send me pull request.  
 
-## Creational Design Patterns
+## ✔️ Creational Design Patterns
 
 ### Singleton Pattern
 
@@ -78,7 +82,7 @@ In map string representation of class is stored as key, as value we have Supplie
 
 
 
-## Structural Design Patterns
+## ✔️ Structural Design Patterns
 
 ### Proxy Pattern
 Proxy is yet another pattern to control use of resources. It can be definied as a surrogate. 
@@ -115,13 +119,13 @@ We can see here that Proxy pattern avoid creating slow and time consuming instan
 - Object needs to be created on demand
 - Access control for original object is required 
 - Added functionality is required when object is accessed 
-## _______________________________________________________________________________________________
-Legend: 
-🐜 - this little bug (well ant, to be honest) means there are some problems or issues - so pay attention tho the code. 
-❓ - this red question mark means that I had used some strange implementation. 
+## _______________________
+### Legend: 
++ 🐜 - this little bug (well ant, to be honest) means there are some problems or issues - so pay attention tho the code. 
++ ❓ - this red question mark means that I had used some strange implementation. 
 As I personally learn from my mistakes I decided to leave this with comments. 
 Please pay close attention to the code to not replicate bad practices. 
-## _____________________________________________________________________________________________
+## _______________________
 ### Bibliography: 
 1. [Initialization-on-demand holder idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom)
 2. [Storm IT, Singleton. (in polish)](https://stormit.pl/singleton/)

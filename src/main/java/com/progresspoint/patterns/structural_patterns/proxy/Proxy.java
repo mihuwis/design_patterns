@@ -2,7 +2,7 @@ package com.progresspoint.patterns.structural_patterns.proxy;
 
 import java.util.Date;
 
-public class Proxy extends Subject {
+public class Proxy implements Subject {
 
     RealSubject realSubject;
 

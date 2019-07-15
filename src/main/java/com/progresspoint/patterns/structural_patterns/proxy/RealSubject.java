@@ -1,6 +1,8 @@
 package com.progresspoint.patterns.structural_patterns.proxy;
 
-public class RealSubject extends Subject {
+import java.util.Date;
+
+public class RealSubject implements Subject {
 
     public RealSubject() {
         try{
@@ -8,5 +10,10 @@ public class RealSubject extends Subject {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void sayHello() {
+        System.out.println(this.getClass().getSimpleName() + " says hello at " + new Date());
     }
 }

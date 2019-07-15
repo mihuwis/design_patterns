@@ -6,7 +6,7 @@ Three main categories are included here - creational, structural and behavioral 
 
 ### 🕹 Project Motivation
 Design patterns are one of most common job interviev question in industry. This repo was created to practice and gather them in one place.
-If you found any bug or you thing something important (pattern or implementation) is missing please feel fre to send me pull request.  
+If you found any bug or you thing something important (pattern or implementation) is missing please feel free to send me pull request.  
 
 ## Creational Design Patterns
 
@@ -19,7 +19,9 @@ Singleton typically has private constructor to prevent this class being instanti
 
 #### [Singleton Simple](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java) 
 
-This is very simple implementation of singleton. And a singleton with parameters is not a singleton(!!) 
+This is very simple implementation of singleton. -> private static field of this class. -> private constructor 
+-> public static method to getInstance() All that you need to have singleton. 
+question And a singleton with parameters is not a singleton(!!) question
 This implementation with parameters was just for exercise purposes.  
 **Reflection**
 As can be seen in [SingletonSimpleTest](src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java) 

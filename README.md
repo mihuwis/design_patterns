@@ -80,10 +80,18 @@ In map string representation of class is stored as key, as value we have Supplie
 
 ## Structural Design Patterns
 
+### Proxy Pattern
 
 
-Bibliography: 
-[Initialization-on-demand holder idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom)
-[Storm IT, Singleton. (in polish)](https://stormit.pl/singleton/)
-[Design patterns - avajava](http://www.avajava.com/tutorials/categories/design-patterns)
+Legend: 
+🐜 - this little bug (well ant, to be honest) means there are some problems or issues - so pay attention tho the code. 
+❓ - this red question mark means that I had used some strange implementation. 
+As I personally learn from my mistakes I decided to leave this with comments. 
+Please pay close attention to the code to not replicate bad practices. 
+______________________________________________________________________________________________________________________
+Bibliography: ----------------------------------------------------------------------------------
+[Initialization-on-demand holder idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom) __
+[Storm IT, Singleton. (in polish)](https://stormit.pl/singleton/)________
+[Design patterns - avajava](http://www.avajava.com/tutorials/categories/design-patterns)____
+[Factory pattern](https://dzone.com/articles/factory-pattern-using-lambda-expression-in-java-8)
 

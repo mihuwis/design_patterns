@@ -1,7 +1,14 @@
 # 🗿 Design Patterns
-Design patterns repository
 
-## Creational Desing Patterns
+### 📮 About
+Design patterns repository. Repo with some basic implementation of common design patterns. 
+Three main categories are included here - creational, structural and behavioral design patterns.
+
+### 🕹 Project Motivation
+Design patterns are one of most common job interviev question in industry. This repo was created to practice and gather them in one place.
+If you found any bug or you thing something important (pattern or implementation) is missing please feel fre to send me pull request.  
+
+## Creational Design Patterns
 
 ### Singleton Pattern
 
@@ -63,6 +70,9 @@ We can control which class will be instantiated by method argument.
 Different aproach, where functional possibilities of Java 8 were used. 
 In map string representation of class is stored as key, as value we have Supplier interface of given class.
 
+
+
+## Structural Design Patterns
 
 
 

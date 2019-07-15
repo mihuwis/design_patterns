@@ -81,17 +81,37 @@ In map string representation of class is stored as key, as value we have Supplie
 ## Structural Design Patterns
 
 ### Proxy Pattern
+Proxy is yet another pattern to control use of resources. It can be definied as a surrogate. 
+**Proxy protects and control access to the object**
+__
+
+![proxy pattern](https://github.com/mihuwis/design_patterns/blob/master/src/main/resources/img/proxy_pattern.png?raw=true)
+
+So the CLIENT knows about SUBJECTS and can request from him. But PROXY and REAL SUBJECT implements subject interface 
+and CLIENT can be forced to go through PROXY before reaching REAL SUBJECT. 
+This can be due to security reasons or performance (when real subject is very big and complicated class and we don't want 
+to instantiate it without good reason)
+
+![proxy sequence](https://github.com/mihuwis/design_patterns/blob/master/src/main/resources/img/proxy_seq.png?raw=true)
+
+As it can be seen above, PROXY provides barrier between real subject and client.
+
+#### [Subject implementation]()
+Here I used abstract class to print time of 
 
 
+[Lest's print out results](src/main/java/com/progresspoint/patterns/Main.java)
+________________________________________________________________________________________________________________________
 Legend: 
 🐜 - this little bug (well ant, to be honest) means there are some problems or issues - so pay attention tho the code. 
 ❓ - this red question mark means that I had used some strange implementation. 
 As I personally learn from my mistakes I decided to leave this with comments. 
 Please pay close attention to the code to not replicate bad practices. 
-______________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________
 Bibliography: ----------------------------------------------------------------------------------
 [Initialization-on-demand holder idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom) __
 [Storm IT, Singleton. (in polish)](https://stormit.pl/singleton/)________
 [Design patterns - avajava](http://www.avajava.com/tutorials/categories/design-patterns)____
 [Factory pattern](https://dzone.com/articles/factory-pattern-using-lambda-expression-in-java-8)
+[Proxy pattern](https://dzone.com/articles/design-patterns-proxy)
 

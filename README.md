@@ -21,12 +21,12 @@ Singleton typically has private constructor to prevent this class being instanti
 
 This is very simple implementation of singleton. -> private static field of this class. -> private constructor 
 -> public static method to getInstance() All that you need to have singleton. 
-question And a singleton with parameters is not a singleton(!!) question
+❓ But wait! A singleton with parameters is not really a good idea. (!!) ❓
 This implementation with parameters was just for exercise purposes.  
-**Reflection**
+ 🕵️‍ **Reflection** 🕵️‍
 As can be seen in [SingletonSimpleTest](src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java) 
-it not safe against reflection. 
-When we use reflection constructor.setAccesible(true);  it is possible to create two instances of this class. 
+it is not safe against reflection. 
+When we use reflection constructor.setAccesible(true); 🐜 Than it is possible to create two instances of this class. 
 
 #### [Singleton Reflection Safe](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafe.java)
 
@@ -35,10 +35,11 @@ This will prevent instantiation of class when there is already another instance.
 Test in [SingletonReflectionSafe](src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafeTest.java)
 shows then constructor will throw exception in this case. 
 Reflection will wrap all the exception in InvocationTargetException, so this is exception I test in tests. 
+🐜 Im not sure about testing against this exception thou. Is this good practise. If someone got any better idea please help me here.
 
 #### [Singleton Thread Safe](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonThreadSafe.java)
 
-To make singleton thread safe we can use different strategies and methods. On is called double-checked locking optimization. 
+To make singleton thread safe we can use different strategies and methods. On is called **double-checked locking optimization**. 
 In getInstance() we use two checks. 
 In case we have some threads passing by first condition they will be que up and only one instance will be created. 
 Please check [Test](src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafeTest.java)
@@ -48,6 +49,9 @@ Only about 95% tests will pass in this case, as some threads managed
 to get through condition check and then more instances were created.
 
 Key word volatile is used to read variable from main memory not from cache. 
+
+🐜 I had change access to public for instance field just for this test purpose. 
+Field SingletonThreadSafe instance should be of course private. 
 
 As synchronization can affects performance we can use: 
 
@@ -69,7 +73,7 @@ We can control which class will be instantiated by method argument.
 
 #### [Factory with map and Functional interface](src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFunctionalFactory.java)
 
-Different aproach, where functional possibilities of Java 8 were used. 
+Different approach, where functional possibilities of Java 8 were used. 
 In map string representation of class is stored as key, as value we have Supplier interface of given class.
 
 

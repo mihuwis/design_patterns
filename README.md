@@ -96,22 +96,36 @@ to instantiate it without good reason)
 
 As it can be seen above, PROXY provides barrier between real subject and client.
 
-#### [Subject implementation]()
-Here I used abstract class to print time of 
+#### [Real Subject](src/main/java/com/progresspoint/patterns/structural_patterns/proxy/RealSubject.java)
+As we can see creation of real subject is time consuming. Proxy will help us control in process of instantiation of this class.
 
+[Please check this Main class](src/main/java/com/progresspoint/patterns/Main.java)
 
-[Lest's print out results](src/main/java/com/progresspoint/patterns/Main.java)
-________________________________________________________________________________________________________________________
+Results should be ass follow: 
+1. Creating proxy at Mon Jul 15 12:20:01 CEST 2019 __
+2. SomeOtherThing here! Im working :) Is Mon Jul 15 12:20:01 CEST 2019 
+3. RealSubject says hello at Mon Jul 15 12:20:06 CEST 2019 ___
+
+Please notice that creating proxy and calling some other methods occurred at 12:20:01 but real subject was created 5 sec later. 
+However this not affected execution of our application until Real Subject was actually needed. 
+We can see here that Proxy pattern avoid creating slow and time consuming instances until they are needed. 
+
+#### When use proxy? 
+- The object being represented is external to the system and communication is expensive
+- Object needs to be created on demand
+- Access control for original object is required 
+- Added functionality is required when object is accessed 
+## _______________________________________________________________________________________________
 Legend: 
 🐜 - this little bug (well ant, to be honest) means there are some problems or issues - so pay attention tho the code. 
 ❓ - this red question mark means that I had used some strange implementation. 
 As I personally learn from my mistakes I decided to leave this with comments. 
 Please pay close attention to the code to not replicate bad practices. 
-________________________________________________________________________________________________________________________
-Bibliography: ----------------------------------------------------------------------------------
-[Initialization-on-demand holder idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom) __
-[Storm IT, Singleton. (in polish)](https://stormit.pl/singleton/)________
-[Design patterns - avajava](http://www.avajava.com/tutorials/categories/design-patterns)____
-[Factory pattern](https://dzone.com/articles/factory-pattern-using-lambda-expression-in-java-8)
-[Proxy pattern](https://dzone.com/articles/design-patterns-proxy)
+## _____________________________________________________________________________________________
+### Bibliography: 
+1. [Initialization-on-demand holder idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom)
+2. [Storm IT, Singleton. (in polish)](https://stormit.pl/singleton/)
+3. [Design patterns - avajava](http://www.avajava.com/tutorials/categories/design-patterns)
+4. [Factory pattern](https://dzone.com/articles/factory-pattern-using-lambda-expression-in-java-8)
+5. [Proxy pattern](https://dzone.com/articles/design-patterns-proxy)
 

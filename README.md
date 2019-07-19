@@ -1,7 +1,16 @@
 # 🗿 Design Patterns
 
+#### TOC
+- [Creational Design Patterns]
+- [Singleton](https://github.com/mihuwis/design_patterns#singleton-simple)
+- [Factory](https://github.com/mihuwis/design_patterns#factory)
+- [Structural Design Patterns]
+- [Behavioral Design Patterns]
+
+
 ### 📮 About
-Design patterns repository. Repo with some basic implementation of common design patterns. 
+Design patterns repository. 
+- Repo with some basic implementation of common design patterns. 
 Three main categories of design patterns are included here:
 - creational 
 - structural 
@@ -10,24 +19,27 @@ Three main categories of design patterns are included here:
 
 ### 🕹 Project Motivation
 Design patterns are one of most common job interview topics. This repo was created to practice and gather info about them in one place.
-- If you found any bug or you thing something important (pattern or implementation) is missing please feel free to send me pull request.  
+- If you found any bug or you thing something important (pattern or implementation) is missing, please feel free to send me pull request.  
 
-## ✔️ Creational Design Patterns
+## ✔️ [Creational Design Patterns](src/main/java/com/progresspoint/patterns/creational_patterns)
 
 ### Singleton Pattern
 
 A **singleton** is a class that is instantiated only once. 
 Typically this is accomplished by creating static filed that represents that class.
-Static method exist in the class to obtain instance of class. Typically we call this method getInstance() 
-Singleton typically has private constructor to prevent this class being instantiated via constructor. 
+Static method exist in the class to obtain instance of class. Typically we call this method **getInstance()**. 
+Singleton typically has private constructor, to prevent this class being instantiated via constructor. 
 
 #### [Singleton Simple](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java) 
 
-This is very simple implementation of singleton. -> private static field of this class. -> private constructor 
--> public static method to getInstance() All that you need to have singleton. 
+This is very simple implementation of singleton. 
+- -> private static field of this class. 
+- -> private constructor 
+- -> public static method to getInstance() 
+* All that you need to have singleton. 
 ❓ But wait! A singleton with parameters is not really a good idea. (!!) ❓
 This implementation with parameters was just for exercise purposes.  
- 🕵️‍ **Reflection** 🕵️‍
+- 🕵️‍ **Reflection** 🕵️‍
 As can be seen in [SingletonSimpleTest](src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java) 
 it is not safe against reflection. 
 When we use reflection constructor.setAccesible(true); 🐜 Than it is possible to create two instances of this class. 
@@ -43,8 +55,9 @@ Reflection will wrap all the exception in InvocationTargetException, so this is 
 
 #### [Singleton Thread Safe](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonThreadSafe.java)
 
-To make singleton thread safe we can use different strategies and methods. On is called **double-checked locking optimization**. 
-In getInstance() we use two checks. 
+To make singleton thread safe we can use different strategies and methods. 
+- One is called **double-checked locking optimization**. 
+- In getInstance() we use two checks. 
 In case we have some threads passing by first condition they will be que up and only one instance will be created. 
 Please check [Test](src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafeTest.java)
 When we run this test we can see that all 100 tests pass. 
@@ -60,7 +73,7 @@ Field SingletonThreadSafe instance should be of course private.
 As synchronization can affects performance we can use: 
 
 #### [Static Holder Singleton](src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonStaticHolder.java) 
-This is realy cool. When class Singleton is loaded by JVM class will go through initialization. 
+This is really cool. When class Singleton is loaded by JVM class will go through initialization. 
 As there no static variables in class initialization will completes trivially. 
 Inner class Holder will be not initialized until execution of get instance method. 
 Since the class initialization phase is guaranteed by Java Language Specification to be sequential, no further synchronization is needed! 
@@ -89,7 +102,7 @@ a class can't anticipate the class of object it must create.
 Also we can explicitly define types of objects that factory can build. 
 
 
-## ✔️ Structural Design Patterns
+## ✔️ [Structural Design Patterns](src/main/java/com/progresspoint/patterns/structural_patterns)
 
 ### Proxy Pattern
 Proxy is yet another pattern to control use of resources. It can be definied as a surrogate. 

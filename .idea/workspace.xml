@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b63b837-e5ad-4f0b-9f5e-878f86570f96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,71 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactoryKit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonStaticHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="870">
-                <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <first_editor relative-caret-position="1545">
+                <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,19 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonThreadSafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Currency.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -145,10 +75,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactoryKit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyBuilder.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactory.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -244,18 +174,6 @@
               <item name="progresspoint" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="creational_patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="progresspoint" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="creational_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -438,7 +356,7 @@
       <workItem from="1563293402937" duration="2527000" />
       <workItem from="1563297573542" duration="96000" />
       <workItem from="1563350779166" duration="1971000" />
-      <workItem from="1563521791532" duration="5754000" />
+      <workItem from="1563521791532" duration="7831000" />
     </task>
     <servers />
   </component>
@@ -475,7 +393,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67659000" />
+    <option name="totallyTimeSpent" value="69736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1680" height="1052" extended-state="6" />
@@ -559,13 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -730,11 +641,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonThreadSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="870">
-            <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <first_editor relative-caret-position="1545">
+            <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>

@@ -1,17 +1,17 @@
 # 🗿 Design Patterns
 
-#### TOC
-- [Creational Design Patterns]
+#### Table Of Content
+- [CREATIONAL Design Patterns](https://github.com/mihuwis/design_patterns#%EF%B8%8F-creational-design-patterns)
 - [Singleton](https://github.com/mihuwis/design_patterns#singleton-simple)
 - [Factory](https://github.com/mihuwis/design_patterns#factory)
-- [Structural Design Patterns]
-- [Behavioral Design Patterns]
+- [STRUCTURAL Design Patterns](https://github.com/mihuwis/design_patterns#%EF%B8%8F-structural-design-patterns)
+- [BEHAVIORAL Design Patterns]
 
 
 ### 📮 About
 Design patterns repository. 
 - Repo with some basic implementation of common design patterns. 
-Three main categories of design patterns are included here:
+- Three main categories of design patterns are included here:
 - creational 
 - structural 
 - behavioral 
@@ -37,7 +37,7 @@ This is very simple implementation of singleton.
 - -> private constructor 
 - -> public static method to getInstance() 
 * All that you need to have singleton. 
-❓ But wait! A singleton with parameters is not really a good idea. (!!) ❓
+- ❓ But wait! A singleton with parameters is not really a good idea. (!!) ❓
 This implementation with parameters was just for exercise purposes.  
 - 🕵️‍ **Reflection** 🕵️‍
 As can be seen in [SingletonSimpleTest](src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java) 
@@ -65,9 +65,9 @@ Try to get rid of inner condition in singleton class.
 Only about 95% tests will pass in this case, as some threads managed 
 to get through condition check and then more instances were created.
 
-Key word volatile is used to read variable from main memory not from cache. 
+- Key word volatile is used to read variable from main memory not from cache. 
 
-🐜 I had change access to public for instance field just for this test purpose. 
+- 🐜 I had change access to public for instance field just for this test purpose. 
 Field SingletonThreadSafe instance should be of course private. 
 
 As synchronization can affects performance we can use: 
@@ -104,8 +104,8 @@ Also we can explicitly define types of objects that factory can build.
 
 ## ✔️ [Structural Design Patterns](src/main/java/com/progresspoint/patterns/structural_patterns)
 
-### Proxy Pattern
-Proxy is yet another pattern to control use of resources. It can be definied as a surrogate. 
+### [Proxy Pattern](src/main/java/com/progresspoint/patterns/structural_patterns/proxy)
+Proxy is yet another pattern to control use of resources. It can be defined as a surrogate. 
 **Proxy protects and control access to the object**
 __
 
@@ -125,7 +125,7 @@ As we can see creation of real subject is time consuming. Proxy will help us con
 
 [Please check this Main class](src/main/java/com/progresspoint/patterns/Main.java)
 
-Results should be ass follow: 
+Results should be as follow: 
 1. Creating proxy at Mon Jul 15 12:20:01 CEST 2019 __
 2. SomeOtherThing here! Im working Is Mon Jul 15 12:20:01 CEST 2019 
 3. RealSubject says hello at Mon Jul 15 12:20:06 CEST 2019 ___

@@ -2,11 +2,11 @@
 
 ### 📮 About
 Design patterns repository. Repo with some basic implementation of common design patterns. 
-Three main categories are included here:
+Three main categories of design patterns are included here:
 - creational 
 - structural 
 - behavioral 
-design patterns.
+
 
 ### 🕹 Project Motivation
 Design patterns are one of most common job interview topics. This repo was created to practice and gather info about them in one place.
@@ -80,6 +80,13 @@ We can control which class will be instantiated by method argument.
 Different approach, where functional possibilities of Java 8 were used. 
 In map string representation of class is stored as key, as value we have Supplier interface of given class.
 
+#### [Factory kit]()
+
+This is approach I found on one of MIT repositories. It sports factory of immutable content with separated builder class
+and factory interfaces. It also use enum type.
+- Factory kit (which contains Interfaces -> Currency, CurrencyBuilder, CurrencyFactoryKit) can be used when 
+a class can't anticipate the class of object it must create. 
+Also we can explicitly define types of objects that factory can build. 
 
 
 ## ✔️ Structural Design Patterns
@@ -107,7 +114,7 @@ As we can see creation of real subject is time consuming. Proxy will help us con
 
 Results should be ass follow: 
 1. Creating proxy at Mon Jul 15 12:20:01 CEST 2019 __
-2. SomeOtherThing here! Im working :) Is Mon Jul 15 12:20:01 CEST 2019 
+2. SomeOtherThing here! Im working Is Mon Jul 15 12:20:01 CEST 2019 
 3. RealSubject says hello at Mon Jul 15 12:20:06 CEST 2019 ___
 
 Please notice that creating proxy and calling some other methods occurred at 12:20:01 but real subject was created 5 sec later. 
@@ -132,4 +139,6 @@ Please pay close attention to the code to not replicate bad practices.
 3. [Design patterns - avajava](http://www.avajava.com/tutorials/categories/design-patterns)
 4. [Factory pattern](https://dzone.com/articles/factory-pattern-using-lambda-expression-in-java-8)
 5. [Proxy pattern](https://dzone.com/articles/design-patterns-proxy)
+6. [Design patterns repo](https://github.com/iluwatar/java-design-patterns)
+7. [Refactoring guru](https://refactoring.guru/)
 

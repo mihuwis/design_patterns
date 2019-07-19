@@ -10,6 +10,7 @@ import java.util.function.Supplier;
 
 public class Main {
 
+
     public static void main(String[] args) {
         // Singleton simple demo
         System.out.println("\nSINGLETON\n");
@@ -35,9 +36,6 @@ public class Main {
         SomeOtherThing someOtherThing = new SomeOtherThing();
         someOtherThing.sayHeloo();
         proxy.sayHello();
-
-
-
 
     }
 }

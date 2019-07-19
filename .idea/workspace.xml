@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b63b837-e5ad-4f0b-9f5e-878f86570f96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactoryKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            <state relative-caret-position="255">
+              <caret line="23" selection-start-line="23" selection-end-line="30" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,14 +38,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/Proxy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactoryKit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="235">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -46,41 +71,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="180">
-                <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <first_editor relative-caret-position="37">
+                <caret line="40" column="92" selection-start-line="40" selection-start-column="92" selection-end-line="40" selection-end-column="92" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/RealSubject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/SomeOtherThing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -91,6 +85,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -101,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimple.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonSimpleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/singleton/SingletonReflectionSafe.java" />
@@ -116,10 +110,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Euro.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFunctionalFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/SomeOtherThing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/RealSubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/Proxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyType.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactoryKit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyBuilder.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -130,6 +129,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="design-patterns" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2185" />
@@ -142,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +210,40 @@
               <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="progresspoint" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creational_patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="progresspoint" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creational_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="progresspoint" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="structural_patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,7 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -226,8 +270,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/img" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -258,7 +305,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.progresspoint.patterns.creational_patterns.factory.App" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.progresspoint.patterns.creational_patterns.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.progresspoint.patterns.Main" />
       <module name="design_patterns" />
@@ -283,22 +343,6 @@
       <option name="PACKAGE_NAME" value="com.progresspoint.patterns.creational_patterns.singleton" />
       <option name="MAIN_CLASS_NAME" value="com.progresspoint.patterns.creational_patterns.singleton.SingletonReflectionSafeTest" />
       <option name="METHOD_NAME" value="singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.progresspoint.patterns.creational_patterns.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.progresspoint.patterns.creational_patterns.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.progresspoint.patterns.creational_patterns.singleton.SingletonReflectionSafeTest" />
-      <option name="METHOD_NAME" value="singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,11 +381,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SingletonThreadSafeTest.SingletonThreadSafe_TestWhenTwoThreadsRun" />
         <item itemvalue="JUnit.SingletonThreadSafeTest" />
         <item itemvalue="JUnit.SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingletonAndReflection_shallReturnNotEqualObjects" />
-        <item itemvalue="JUnit.SingletonReflectionSafeTest.singletonSimple_twoVariablesDeclaredWithSingleton_shallReturnEqualObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +404,12 @@
       <workItem from="1563034931771" duration="3473000" />
       <workItem from="1563038638953" duration="4408000" />
       <workItem from="1563093212175" duration="8518000" />
-      <workItem from="1563177218876" duration="11164000" />
+      <workItem from="1563177218876" duration="17796000" />
+      <workItem from="1563278661617" duration="5128000" />
+      <workItem from="1563293402937" duration="2527000" />
+      <workItem from="1563297573542" duration="96000" />
+      <workItem from="1563350779166" duration="1971000" />
+      <workItem from="1563521791532" duration="3397000" />
     </task>
     <servers />
   </component>
@@ -397,13 +446,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45551000" />
+    <option name="totallyTimeSpent" value="65302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1680" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2239902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23929009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -427,7 +476,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32986537" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -480,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
@@ -536,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Euro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -557,12 +592,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFunctionalFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="270">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,50 +617,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/Proxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFunctionalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/Subject.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="525">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/structural_patterns/proxy/RealSubject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="255">
+          <caret line="23" selection-start-line="23" selection-end-line="30" selection-end-column="101" />
           <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyFactoryKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progresspoint/patterns/creational_patterns/factory/CurrencyBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <first_editor relative-caret-position="37">
+            <caret line="40" column="92" selection-start-line="40" selection-start-column="92" selection-end-line="40" selection-end-column="92" />
           </first_editor>
           <second_editor />
         </state>
